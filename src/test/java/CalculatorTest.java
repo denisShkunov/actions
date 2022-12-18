@@ -20,4 +20,8 @@ public class CalculatorTest {
         assertEquals(10, calculator.multiplication(2, 5));
     }
 
+    @Test
+    void division(){
+        assertEquals(4, calculator.division(100, 25));
+    }
 }
